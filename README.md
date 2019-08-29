@@ -1,4 +1,4 @@
-Tasks fron checkio, hackerrank and others
+Tasks from checkio, hackerrank and others sites.
 =====================
 
 Всем привет, это пробный репозиторий, в котором я буду постить, свои(ну может и не только свои), способы решения заданий. 
