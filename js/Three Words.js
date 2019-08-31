@@ -43,3 +43,16 @@ console.log(threeWords("Hi"));
 function threeWords(data) {
     return data.match(/\D+ \D+ \D+/) ? true : false;
 }
+
+/**
+ * А ЭТО РЕШЕНИЕ МНЕ ПРОСТО ПОНРАВИЛОСЬ
+ */
+
+const threeWords = data => {
+    let count = 0;    
+    for (const word of data.split(' ')) {
+        count = !(Number(word)) ? count + 1 : 0;
+        if (count > 2) return true
+    }
+    return false;
+}
