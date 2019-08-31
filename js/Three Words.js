@@ -33,3 +33,13 @@ console.log(threeWords("He is 123 man"));
 console.log(threeWords("1 2 3 4"));
 console.log(threeWords("bla bla bla bla"));
 console.log(threeWords("Hi"));
+
+
+/**
+ * БОЛЕЕ КРУТОЕ РЕШЕНИЕ 
+ * P.S Я НЕ ПОНИМАЮ КАК ЭТО РАБОТАЕТ
+ */
+
+function threeWords(data) {
+    return data.match(/\D+ \D+ \D+/) ? true : false;
+}
